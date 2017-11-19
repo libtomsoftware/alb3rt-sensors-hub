@@ -1,6 +1,6 @@
 {
   "name": "alb3rt-sensors-hub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Alb3rt Sensors Hub",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/libtomsoftware/alb3rt-sensors-hub#readme",
   "dependencies": {
-    "alb3rt-core": "file://../alb3rt-core"
+    "alb3rt-core": "^0.1.1",
+    "moment": "^2.19.2"
   }
 }
