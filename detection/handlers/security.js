@@ -12,6 +12,8 @@ module.exports = new class Alb3rtSensorsSecurityHandler {
     report(type, data) {
         const event = `${type}@${data.ip}:${data.port}@${data.timestamp}`;
 
+        console.warn('this.securityUrl', this.securityUrl);
+
         if (this.securityUrl) {
             http.post({
                 url: `http://${this.securityUrl}/api/motion`,
