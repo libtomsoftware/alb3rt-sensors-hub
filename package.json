@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/libtomsoftware/alb3rt-sensors-hub#readme",
   "dependencies": {
-    "alb3rt-core": "^0.1.1",
+    "alb3rt-core": "^0.1.6",
     "moment": "^2.19.2"
   }
 }
